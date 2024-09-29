@@ -1,0 +1,33 @@
+{
+  "name": "fwkz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/fwkz.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist/fwkz.js"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^9.10.0",
+    "jsdom": "^25.0.0",
+    "rollup": "^4.21.2",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-filesize": "^10.0.0",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "fast-deep-equal": "^3.1.3"
+  }
+}

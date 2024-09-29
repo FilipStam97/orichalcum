@@ -1,0 +1,17 @@
+{
+  "name": "fwkz-project",
+  "version": "1.0.0",
+  "description": "A project to learn how to write a frontend framework",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:examples": "npx http-server -c-1 . -o ./examples/"
+  },
+  "workspaces": [
+      "packages/runtime"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
