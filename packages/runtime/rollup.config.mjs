@@ -8,7 +8,7 @@ export default {
     plugins: [commonjs(), nodeResolve(), cleanup()],
     output: [
         {
-            file: 'dist/fwkz.js',
+            file: 'dist/orichalcum.js',
             format: 'esm',
             plugins: [filesize()]
         }

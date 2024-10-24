@@ -1,6 +1,6 @@
 import { destroyDOM } from './destroy-dom'
 import { mountDOM } from './mount-dom'
-
+import { h } from './h';
 
 
 export function createApp(RootComponent, props = {}) {

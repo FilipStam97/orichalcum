@@ -1,4 +1,4 @@
-import { createApp, h, hFragment,defineComponent } from '../../packages/runtime/dist/fwkz.js';
+import { createApp, h, hFragment,defineComponent } from '../../packages/runtime/dist/orichalcum.js';
   
 const App = defineComponent({
   state() {

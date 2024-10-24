@@ -57,7 +57,7 @@ function createElementNode(vdom, parentEl, index, hostComponent) {
     const { tag, children } = vdom;
 
     const el = document.createElement(tag);
-    addProps(element, vdom, hostComponent);
+    addProps(el, vdom, hostComponent);
     vdom.el = el;
 
     children.forEach(element => mountDOM(element, el, null, hostComponent));

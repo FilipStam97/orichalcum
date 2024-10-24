@@ -6,4 +6,4 @@ export { nextTick } from './scheduler.js'
 
 
 
-console.log('This will soon be a frontend framework!')
+console.log('Orichalcum forge ready to burn!')

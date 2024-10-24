@@ -1,8 +1,8 @@
 {
-  "name": "fwkz",
+  "name": "orichalcum",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/fwkz.js",
+  "main": "dist/orichalcum.js",
   "scripts": {
     "prepack": "npm run build",
     "build": "rollup -c",
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "files": [
-    "dist/fwkz.js"
+    "dist/orichalcum.js"
   ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
